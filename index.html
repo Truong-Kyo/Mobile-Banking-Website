@@ -11,7 +11,7 @@
         <!-- Style css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
 
-        <!-- favicon -->
+        <!-- Favicon -->
         <link
             rel="apple-touch-icon"
             sizes="57x57"
@@ -100,118 +100,126 @@
     <body>
         <!-- Header -->
         <header class="header">
-            <div class="container">
-                <div class="header__top">
-                    <a href="#!" class="header__logo">
-                        <img src="./assets/img/logo.svg" alt="" />
-                    </a>
+            <a href="#!" class="header__logo">
+                <img src="./assets/img/logo.svg" alt="" />
+            </a>
 
-                    <ul class="header__nav-list">
-                        <li>
-                            <a href="#!" class="header__nav-item active"
-                                >Home</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#!" class="header__nav-item">Products</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="header__nav-item">Features</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="header__nav-item">Blog</a>
-                        </li>
-                    </ul>
+            <ul class="header__nav-list">
+                <li>
+                    <a href="" class="header__nav-item active">Home</a>
+                </li>
+                <li>
+                    <a href="#products" class="header__nav-item">Products</a>
+                </li>
+                <li>
+                    <a href="#feature" class="header__nav-item">Features</a>
+                </li>
+                <li>
+                    <a href="#blog" class="header__nav-item">Blog</a>
+                </li>
+            </ul>
 
-                    <div class="header__cta">
-                        <a href="#!" class="header__login">Log in</a>
-                        <button type="submit" class="btn btn__sing-up">
-                            Sign up
-                        </button>
-                    </div>
-                </div>
-
-                <div class="header__content">
-                    <!-- Header left -->
-                    <div class="header__content-left">
-                        <p class="line__sub-title">Digital Smart Wallet</p>
-                        <h1 class="section__heading header__heading">
-                            Digital <span>Payment</span> For Everyone.
-                        </h1>
-                        <p class="section__desc">
-                            We bring together eveything that’s required to build
-                            websites and apps that accept payments and send
-                            payouts globally. We are the best platform.
-                        </p>
-
-                        <form id="input_email" class="header__email">
-                            <input
-                                type="email"
-                                name=""
-                                placeholder="Your email address"
-                                id="input_email"
-                                class="header__input-email"
-                            />
-                            <button type="submit" class="btn email__btn">
-                                Get Started
-                            </button>
-                        </form>
-
-                        <span class="header__sub-desc"
-                            >*We’ll respect the inbox and never share your
-                            email.</span
-                        >
-                    </div>
-
-                    <!-- Header right -->
-                    <div class="header__content-right">
-                        <!-- Deposite -->
-                        <div class="deposite">
-                            <img
-                                src="./assets/icon/download__icon.svg"
-                                alt=""
-                                class="deposite__icon"
-                            />
-                            <p class="depodite__name">Deposite</p>
-                            <span class="deposite__price">$32000</span>
-                        </div>
-
-                        <!-- Mobile Screen  -->
-                        <img
-                            src="./assets/img/mobile-screen.png"
-                            alt=""
-                            class="mobile__screen"
-                        />
-
-                        <!-- Interest  -->
-                        <div class="interest">
-                            <span class="interest__percent">0%</span>
-                            <p class="interest__name">Interest</p>
-                        </div>
-
-                        <!-- Secured -->
-                        <div class="secured">
-                            <img
-                                src="./assets/icon/shield__icon.svg"
-                                alt=""
-                                class="secured__icon"
-                            />
-                            <div class="secured__inner">
-                                <span class="secured__price">$1.310</span>
-                                <p class="secured__name">SECURED FUNDS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="header__cta">
+                <a href="#!" class="header__login">Log in</a>
+                <button type="submit" class="btn btn__sing-up">Sign up</button>
             </div>
         </header>
 
         <!-- Main -->
         <main class="main">
-            <!-- Work -->
-            <div class="work">
+            <!-- Hero -->
+            <section class="hero">
                 <div class="container">
-                    <div class="work__inner">
+                        <div class="hero__content">
+                            <!-- Hero left -->
+                            <div class="hero__content-left">
+                                <p class="line__sub-title">
+                                    Digital Smart Wallet
+                                </p>
+                                <h1 class="section__heading hero__heading">
+                                    Digital <span>Payment</span> For Everyone.
+                                </h1>
+                                <p class="section__desc">
+                                    We bring together eveything that’s required
+                                    to build websites and apps that accept
+                                    payments and send payouts globally. We are
+                                    the best platform.
+                                </p>
+
+                                <form id="input_email" class="hero__email">
+                                    <input
+                                        type="email"
+                                        name=""
+                                        placeholder="Your email address"
+                                        id="input_email"
+                                        class="hero__input-email"
+                                    />
+                                    <button
+                                        type="submit"
+                                        class="btn email__btn"
+                                    >
+                                        Get Started
+                                    </button>
+                                </form>
+
+                                <span class="hero__sub-desc"
+                                    >*We’ll respect the inbox and never share
+                                    your email.</span
+                                >
+                            </div>
+
+                            <!-- Hero right -->
+                            <div class="hero__content-right">
+                                <!-- Deposite -->
+                                <div class="deposite">
+                                    <img
+                                        src="./assets/icon/download__icon.svg"
+                                        alt=""
+                                        class="deposite__icon"
+                                    />
+                                    <p class="depodite__name">Deposite</p>
+                                    <span class="deposite__price">$32000</span>
+                                </div>
+
+                                <!-- Mobile Screen  -->
+                                <img
+                                    src="./assets/img/mobile-screen.png"
+                                    alt=""
+                                    class="mobile__screen"
+                                />
+
+                                <!-- Interest  -->
+                                <div class="interest">
+                                    <span class="interest__percent">0%</span>
+                                    <p class="interest__name">Interest</p>
+                                </div>
+
+                                <!-- Secured -->
+                                <div class="secured">
+                                    <img
+                                        src="./assets/icon/shield__icon.svg"
+                                        alt=""
+                                        class="secured__icon"
+                                    />
+                                    <div class="secured__inner">
+                                        <span class="secured__price"
+                                            >$1.310</span
+                                        >
+                                        <p class="secured__name">
+                                            SECURED FUNDS
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products -->
+            <div id="products" class="product">
+                <div class="container">
+                    <div class="product__inner">
+                        <!-- Product block 1 -->
                         <!-- Work left -->
                         <div class="work__left">
                             <figure class="work__img">
@@ -284,14 +292,8 @@
                                 </li>
                             </ul>
                         </section>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Wallet -->
-            <div class="wallet">
-                <div class="container">
-                    <div class="wallet__inner">
+                        <!-- Product block 2 -->
                         <!-- Wallet left -->
                         <section class="wallet__section">
                             <p class="line__sub-title">Digital Smart Wallet</p>
@@ -359,14 +361,8 @@
                                 </div>
                             </div>
                         </figure>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Payment -->
-            <div class="payment">
-                <div class="container">
-                    <div class="payment__inner">
+                        <!-- Product block 3 -->
                         <!-- Payment left -->
                         <figure class="payment__img">
                             <img
@@ -450,28 +446,28 @@
                 </div>
             </div>
 
-            <!-- Introduce -->
-            <div class="itd">
+            <!-- Features -->
+            <div id="feature" class="feature">
                 <div class="container">
-                    <div class="itd__inner">
-                        <!-- Introduce header -->
-                        <section class="itd__header">
+                    <div class="feature__inner">
+                        <!-- Features header -->
+                        <section class="feature__header">
                             <p class="line__sub-title">Our Testimonial</p>
                             <h2 class="section__h2-heading">
                                 What Clients Says
                             </h2>
-                            <p class="section__desc itd__desc">
+                            <p class="section__desc feature__desc">
                                 Read what clients says about us and about our
                                 online banking services that may inspire you
                             </p>
                         </section>
 
-                        <!-- Introduce content -->
-                        <div class="itd__content">
-                            <!-- Introduce content left -->
-                            <div class="itd__content-itd">
-                                <div class="itd__content-block">
-                                    <p class="itd__content-review">
+                        <!-- Features content -->
+                        <div class="feature__content">
+                            <!-- Features content left -->
+                            <div class="feature__content-feature">
+                                <div class="feature__content-block">
+                                    <p class="feature__content-review">
                                         Fantastic platform for online banking.
                                         The best online banking platform I have
                                         used. Payments, loans, and money
@@ -482,18 +478,18 @@
                                 </div>
 
                                 <img
-                                    src="./assets/img/itd_avt-1.jpg"
+                                    src="./assets/img/feature_avt-1.jpg"
                                     alt=""
-                                    class="itd__avt"
+                                    class="feature__avt"
                                 />
-                                <p class="itd__name">Alastair Cook</p>
-                                <p class="itd__regency">Businessmen</p>
+                                <p class="feature__name">Alastair Cook</p>
+                                <p class="feature__regency">Businessmen</p>
                             </div>
 
-                            <!-- Introduce content right -->
-                            <div class="itd__content-itd">
-                                <div class="itd__content-block">
-                                    <p class="itd__content-review">
+                            <!-- Features content right -->
+                            <div class="feature__content-feature">
+                                <div class="feature__content-block">
+                                    <p class="feature__content-review">
                                         Fantastic platform for online banking.
                                         The best online banking platform I have
                                         used. Payments, loans, and money
@@ -504,26 +500,26 @@
                                 </div>
 
                                 <img
-                                    src="./assets/img/itd_avt-2.jpg"
+                                    src="./assets/img/feature_avt-2.jpg"
                                     alt=""
-                                    class="itd__avt"
+                                    class="feature__avt"
                                 />
-                                <p class="itd__name">Angle Nguyen</p>
-                                <p class="itd__regency">Businessmen</p>
+                                <p class="feature__name">Angle Nguyen</p>
+                                <p class="feature__regency">Businessmen</p>
                             </div>
                         </div>
 
-                        <div class="itd__dots-list">
-                            <div class="itd__dot-item dot__active"></div>
-                            <div class="itd__dot-item"></div>
-                            <div class="itd__dot-item"></div>
+                        <div class="feature__dots-list">
+                            <div class="feature__dot-item dot__active"></div>
+                            <div class="feature__dot-item"></div>
+                            <div class="feature__dot-item"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Blog -->
-            <div class="blog">
+            <div id="blog" class="blog">
                 <div class="container">
                     <div class="blog__inner">
                         <!-- Blog header -->
@@ -547,7 +543,7 @@
                         <div class="blog__list">
                             <!-- Blog item 1 -->
                             <div class="blog__item">
-                                <a href="#!"
+                                <a class="blog__img-block" href="#!"
                                     ><img
                                         src="./assets/img/blog__01.jpg"
                                         alt=""
@@ -569,11 +565,12 @@
 
                             <!-- Blog item 2 -->
                             <div class="blog__item">
-                                <img
-                                    src="./assets/img/blog__02.jpg"
-                                    alt=""
-                                    class="blog__img"
-                                />
+                                <a class="blog__img-block" href="#!"
+                                    ><img
+                                        src="./assets/img/blog__02.jpg"
+                                        alt=""
+                                        class="blog__img"
+                                /></a>
                                 <div class="blog__section">
                                     <p class="blog__section-date">
                                         July 03, 2022
@@ -590,11 +587,12 @@
 
                             <!-- Blog item 3 -->
                             <div class="blog__item">
-                                <img
-                                    src="./assets/img/blog__03.jpg"
-                                    alt=""
-                                    class="blog__img"
-                                />
+                                <a class="blog__img-block" href="#!"
+                                    ><img
+                                        src="./assets/img/blog__03.jpg"
+                                        alt=""
+                                        class="blog__img"
+                                /></a>
                                 <div class="blog__section">
                                     <p class="blog__section-date">
                                         July 03, 2022
@@ -611,11 +609,12 @@
 
                             <!-- Blog item 4 -->
                             <div class="blog__item">
-                                <img
-                                    src="./assets/img/blog__04.jpg"
-                                    alt=""
-                                    class="blog__img"
-                                />
+                                <a class="blog__img-block" href="#!"
+                                    ><img
+                                        src="./assets/img/blog__04.jpg"
+                                        alt=""
+                                        class="blog__img"
+                                /></a>
                                 <div class="blog__section">
                                     <p class="blog__section-date">
                                         July 03, 2022
@@ -708,6 +707,7 @@
             </div>
         </main>
 
+        <!-- Footer -->
         <footer class="footer">
             <div class="container">
                 <div class="footer__inner">
@@ -718,11 +718,21 @@
                     <div class="footer__inner-block">
                         <h3 class="footer__heading">Sitemap</h3>
                         <ul class="footer__inner-list">
-                            <li class="footer__inner-item">Home</li>
-                            <li class="footer__inner-item">Abouts</li>
-                            <li class="footer__inner-item">Growers</li>
-                            <li class="footer__inner-item">Merchants</li>
-                            <li class="footer__inner-item">Contact</li>
+                            <li class="footer__inner-item">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">About</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Growers</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Merchants</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Contact</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -730,10 +740,18 @@
                     <div class="footer__inner-block">
                         <h3 class="footer__heading">Socials</h3>
                         <ul class="footer__inner-list">
-                            <li class="footer__inner-item">Facebook</li>
-                            <li class="footer__inner-item">Linkedin</li>
-                            <li class="footer__inner-item">Instagram</li>
-                            <li class="footer__inner-item">Twitter</li>
+                            <li class="footer__inner-item">
+                                <a href="">Facebook</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Linkedin</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Instagram</a>
+                            </li>
+                            <li class="footer__inner-item">
+                                <a href="">Twitter</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -764,7 +782,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="footer__adress">
                     <p class="footer__adress-email">email@gmail.com</p>
@@ -774,7 +791,9 @@
 
             <!-- Copyright -->
             <div class="copyright">
-                <p class="copyright-title">© 2020 Ligft Media All rights reserved.</p>
+                <p class="copyright-title">
+                    © 2020 Light Media All rights reserved.
+                </p>
             </div>
         </footer>
     </body>
